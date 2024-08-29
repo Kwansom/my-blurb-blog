@@ -1,0 +1,130 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.entries {
+    border: 4px solid black;
+}
+
+/* was there an easier way to position this? */
+#backButton {
+position: absolute;
+right: 80px;
+top: 32px;
+}
+
+/* dark/light mode switch */
+.toggle {
+    float: right;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  /* Dark Mode */
+  .dark {
+    background-color:#243447;
+    height: 100vh;
+    color: #bebebe
+   
+  }
+  
+  .dark li a {
+    color: #bebebe;
+  }
+  
+  .dark li a:hover {
+    background-color: #111;
+  }
+  
+  /* Light Mode */
+  .light {
+    background-color:white;
+    color: black;
+    height: 100vh;
+  }
+  
+  .light li a {
+    color: black;
+  }
+  
+  .light li a:hover {
+    background-color: rgb(29, 128, 210);
+  }
+  
+  /* Styling the Switch button */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 20px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: whitesmoke;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #111;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(29, 128, 210);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(29, 128, 210);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .col {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+  }

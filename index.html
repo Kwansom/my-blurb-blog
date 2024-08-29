@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    <title>Life</title>
+</head>
+
+<header> </header>
+
+<body>
+  <!-- container class made for dark/light mode-->
+  <div class="container">
+
+<h1> My First Blog</h1>
+<img src="./assets/IMG_6873.JPG" alt="Whistling World">
+
+<!---split page to two sections-->
+<section class="split right">
+
+  <!---create form -->  
+<form class="formstyle" class="centered">
+  <h2> What's on your mind? </h2>
+    <label for="Name">Username:</label><br>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="Blog Title">Blog Title</label><br>
+    <input type="text" id="title" name="title"><br>
+
+    <label for="Blog Content">Blog Content</label><br>
+    <input type="text" id="content" name="content"><br>
+
+<!---submitBlogPost() function in form.js // connect to button/user interact-->
+    <input type="button" value="Submit" onclick="submitBlogPost()"><br>
+  </form>
+
+  <!--- add dark/light mode selector-->
+<div class="row toggle">
+  <div class="col">
+    <p><strong>DARK MODE</strong></p>
+  </div>
+  <label class="switch col">
+    <input type="checkbox" id="theme-switcher">
+    <span class="slider round"></span>
+  </label>
+  <div class="col">
+    <p><strong>LIGHT MODE</strong></p>
+  </div>
+
+</section>
+</div>
+
+  <script src="./assets/js/form.js"></script> 
+
+
+</body>
+</html>
