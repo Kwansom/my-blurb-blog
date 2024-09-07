@@ -1,1 +1,3 @@
-# my-blurb-blog
+# my-life-blog
+
+## The purpose of this 
