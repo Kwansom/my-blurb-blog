@@ -2,7 +2,7 @@
 
 ## Purpose
 
-The purpose of this application is to function as an online journal; that will have the ability to take in entries and display them for future reference and recall.
+The purpose of this application is to function as an online journal. It will have the ability to take in entries and display them for future reference and recall.
 
 ## Mock-Up
 
