@@ -1,6 +1,8 @@
 # my-life-blog
 
-## The purpose of this application is to function as an online journal; that will have the ability to take in entries and display them for future reference and recall.
+## Purpose
+
+The purpose of this application is to function as an online journal; that will have the ability to take in entries and display them for future reference and recall.
 
 ## Mock-Up
 
@@ -9,4 +11,4 @@
 
 ## Link To Deployed Application
 
-<a href=">
+<a href="https://kwansom.github.io/my-life-blog/"> Link</a>
